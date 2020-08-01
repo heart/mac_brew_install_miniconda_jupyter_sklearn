@@ -1,3 +1,3 @@
-conda install --revision 0
-brew uninstall miniconda
+yes y | conda install --revision 0
+yes | brew uninstall miniconda
 echo "Uninstalled."

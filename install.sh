@@ -11,4 +11,4 @@ conda init "$(basename "${SHELL}")"
 echo "$(conda --version) Installed."
 conda list python
 
-echo "The installation was successful.\nRun `jupyter lab` command to start Juperter lab"
+echo "\nThe installation was successful.\n\nRun \"jupyter lab\" command to start Juperter lab"
